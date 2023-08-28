@@ -27,7 +27,7 @@ public class BookStoreInventory{
         // Calculate and display total cost of all books
         double totalCost=0;
         for (int i=0;i<bkPrices.length;i++){
-            totalCost += totalCost;
+            totalCost += bkPrices[i];
         }
         System.out.println("Total cost of all Books: "+totalCost);
     }
