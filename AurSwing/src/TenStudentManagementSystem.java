@@ -110,7 +110,7 @@ public class TenStudentManagementSystem {
         System.out.println("Name: "+teacher.getName());
         System.out.println("Age: "+teacher.getAge());
         System.out.println("Address: "+teacher.getAddress());
-        student.displayRole();
+        teacher.displayRole();
         teacher.displayCoursesTaught();
     }
 }
